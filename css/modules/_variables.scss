@@ -1,0 +1,90 @@
+//colors
+$primary-blue: #0A8BC9;
+$primary-navy: #011739;
+$primary-yellow: #FFCB08;
+$primary-orange: #F7941D;
+$primary-green: #359580;
+$primary-white: #ffffff;
+
+
+//font variable
+
+//font-size
+//mobile
+$h1-font-size-mobile: 32px;
+$h2-font-size-mobile: 24px;
+$h3-font-size-mobile: 20px;
+$h4-font-size-mobile: 19px;
+$p-font-size-mobile: 18px;
+$button-font-size-mobile: 15px;
+$copyright-font-size-mobile: 10px;
+
+//tablet
+$h1-font-size-tablet: 45px;
+$h2-font-size-tablet: 35px;
+$h3-font-size-tablet: 31px;
+$h4-font-size-tablet: 25px;
+$h5-font-size-tablet: 23px;
+$p-font-size-tablet: 20px;
+$copyright-font-size-tablet: 13px;
+
+//desktop 
+$h1-font-size-desktop: 58px;
+$h2-font-size-desktop: 48px;
+$h3-font-size-desktop: 42px;
+$h4-font-size-desktop: 35px;
+$h5-font-size-desktop: 28px;
+$h6-font-size-desktop: 27px;
+$button-font-size-desktop: 26px;
+$p-font-size-desktop: 23px;
+$p-small-font-size-desktop: 20px;
+
+//font weight
+$regular-font-weight: 400;
+$semi-bold-font-weight: 500;
+$bold-font-weight: 600;
+$extra-bold-font-weight: 700;
+
+
+// spacing
+// general spacing
+$xx-large-spacing: 80px;
+$x-large-spacing: 60px;
+$large-spacing: 40px;
+$med-spacing: 30px;
+$small-spacing: 20px;
+$x-small-spacing: 10px;
+
+//section spacing
+$page-section-mobile: 40px 10px;
+$page-section-tablet: 50px 10px;
+
+// border-radius
+$med-border-radius: 10px;
+$small-border-radius: 5px;
+
+//buttons
+$button-padding-mobile: 10px 15px;
+$button-padding-tablet: 15px 20px;
+$button-padding-desktop: 20px 25px;
+
+//media queries break point
+$breakpoint-large-mobile: 600px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+//mixins
+@mixin hover-effect {
+    transition: all 0.5s ease-in-out;
+    color: $primary-orange;
+}
+
+@mixin button-hover {
+    transition: all 0.3s ease-in-out;
+    background: $primary-orange;
+    box-shadow: 5px 5px $primary-navy;
+}
+
+@mixin box-hover {
+    box-shadow: 5px 10px $primary-navy;
+}

@@ -1,0 +1,124 @@
+footer {
+    background: $primary-navy;
+    color: $primary-white;
+    padding: 45px 45px 25px 45px;
+}
+
+.footer-contents {
+    border-bottom: 1px solid #9A9A9A;
+}
+
+#footer-logo {
+    font-family: 'Porter Sans Block', sans-serif;
+    text-align: center;
+    font-size: $h3-font-size-mobile;
+    padding-bottom: $small-spacing;
+}
+
+#footer-menu {
+    padding: 20px 20px 10px 20px;
+    cursor: pointer;
+
+    ul li {
+        list-style: none;
+        text-align: center;
+        margin-bottom: $x-small-spacing;
+        font-size: $p-font-size-mobile;
+
+        &:hover {
+            @include hover-effect;
+        }
+    }
+}
+
+
+#heading-text-socialmedia {
+    display: none;
+}
+
+#footer-social_media {
+    text-align: center;
+    font-size: 30px;
+    padding: $med-spacing;
+
+    i {
+        margin: 12px;
+        cursor: pointer;
+
+        &:hover {
+            @include hover-effect;
+        }
+    }
+}
+
+
+#heading-text-newsletter {
+    font-size: $h4-font-size-mobile;
+    margin: 20px 0px;
+}
+
+.section-text {
+    margin-bottom: 5px;
+}
+
+.input-box {
+    display: block;
+    background: $primary-white;
+    width: 100%;
+    height: 25px;
+    border-radius: $small-border-radius;
+    border: 2px solid $primary-white;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $small-border-radius;
+    background-color: $primary-green;
+    color: $primary-white;
+    font-size: $button-font-size-mobile;
+    width: 35%;
+    border: 2px solid $primary-green;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        background: $primary-orange;
+        color: $primary-navy;
+        border: 2px solid $primary-orange;
+        font-weight: 600;
+    }
+}
+
+
+
+#heading-text-else {
+    font-size: $h4-font-size-mobile;
+    margin: 30px 0px 15px;
+}
+
+
+//copyright
+
+.copyright {
+    font-size: $copyright-font-size-mobile;
+    text-align: center;
+    margin-top: $large-spacing;
+}
+
+.copyright-box-container {
+    display: flex;
+    justify-content: center;
+    padding: 1.5px;
+}
+
+#terms {
+    padding-right: 8px;
+    border-right: 1px solid $primary-white;
+}
+
+#privacy {
+    padding-left: 8px;
+}

@@ -1,0 +1,66 @@
+//nav bar - mobile and tablet
+.nav-bar_mobile_tablet {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $med-spacing;
+}
+
+.nav-bar_desktop {
+    display: none;
+}
+
+.logo,
+.dropdown-logo {
+    font-family: 'Porter Sans Block', sans-serif;
+    font-size: $p-font-size-mobile;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.search-icon,
+.dropdown-search-icon {
+    margin: auto;
+    font-size: $h2-font-size-mobile;
+}
+
+#hamburger-icon,
+#dropdown-hamburger-icon {
+    margin: auto;
+    font-size: $h1-font-size-mobile;
+    cursor: pointer;
+}
+
+//dropdown mobile
+#dropdown_mobile_tablet {
+    position: relative;
+    top: -80px;
+    background: $primary-white;
+    color: $primary-navy;
+    padding-bottom: $med-spacing;
+    display: none;
+}
+
+.dropdown_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $med-spacing;
+}
+
+.dropdown_list-mobile {
+    margin-top: $small-spacing;
+}
+
+.mobile-dropdown {
+    display: grid;
+    font-size: $h3-font-size-mobile;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid $primary-navy;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+.mobile-dropdown:hover {
+    color: $primary-orange;
+}

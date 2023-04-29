@@ -1,0 +1,174 @@
+@media (min-width: $breakpoint-tablet) {
+
+    //nav bar
+    .nav-bar {
+        padding-top: $large-spacing;
+    }
+
+    .logo,
+    .dropdown-logo {
+        font-size: $h5-font-size-tablet;
+        flex: 2;
+    }
+
+    .search-icon,
+    .dropdown-search-icon {
+        font-size: 30px;
+        text-align: center;
+        flex: 1;
+    }
+
+    #hamburger-icon,
+    #dropdown-hamburger-icon {
+        font-size: $h1-font-size-tablet;
+        text-align: center;
+        flex: 1;
+    }
+
+    //dropdown tablet
+    #dropdown_mobile_tablet {
+        top: -94px;
+        padding-bottom: $large-spacing;
+    }
+
+    .mobile-dropdown {
+        font-size: $h4-font-size-tablet;
+        height: 60px;
+    }
+
+    //hero section 
+    .main-heading {
+        font-size: $h1-font-size-tablet;
+        padding: 30px 0px 10px;
+    }
+
+    .sub-heading {
+        font-size: $h3-font-size-tablet;
+        padding-bottom: 240px;
+    }
+
+    //feature section
+    .feature-wrapper {
+        margin-top: $small-spacing;
+        padding-bottom: $xx-large-spacing;
+    }
+
+    .contents-header {
+        font-size: $h2-font-size-tablet;
+        padding: 80px 10px;
+    }
+
+    .container {
+        padding-bottom: $xx-large-spacing;
+    }
+
+    #feature {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #cta-mission,
+    #cta-facts,
+    #cta-news,
+    #cta-donate {
+        width: 240px;
+        height: 55px;
+        font-size: $p-font-size-tablet;
+    }
+
+    //sub-hero section //donate
+    .sub-hero,
+    .donate {
+        padding: 100px 100px 70px 100px;
+
+        h3 {
+            font-size: $h2-font-size-tablet;
+            margin-bottom: $med-spacing;
+        }
+
+        p {
+            font-size: $h3-font-size-tablet;
+            line-height: 160%;
+            padding: 50px 5px 100px 5px;
+        }
+    }
+
+    // news
+    .news-wrapper {
+        padding-bottom: $xx-large-spacing;
+    }
+
+    #news {
+        padding: 20px 60px 80px;
+    }
+
+    .news-box {
+        height: 330px;
+    }
+
+    .contents-texts {
+        padding-top: 13px;
+        font-size: $h5-font-size-tablet;
+    }
+
+    //footer
+    footer {
+        padding: 80px 80px 40px;
+    }
+
+    #footer-logo {
+        font-size: 28px;
+        padding-bottom: $large-spacing;
+    }
+
+    #footer-menu {
+        padding: 40px 20px 30px 20px;
+
+        ul li {
+            font-size: $h4-font-size-tablet;
+        }
+    }
+
+
+    #footer-social_media {
+        font-size: 46px;
+        padding: $large-spacing;
+
+        i {
+            margin: $small-spacing;
+        }
+    }
+
+    #heading-text-newsletter {
+        font-size: $h4-font-size-tablet;
+        margin: 40px 0px 30px;
+    }
+
+    .section-text {
+        margin-bottom: $x-small-spacing;
+        font-size: $p-font-size-tablet;
+    }
+
+    .input-box {
+        height: 33px;
+        margin-bottom: $small-spacing;
+    }
+
+    .button {
+        width: 10rem;
+        font-size: $p-font-size-tablet;
+        padding: 2px 15px 1px;
+    }
+
+    #heading-text-else {
+        font-size: $h4-font-size-tablet;
+        margin: 30px 0px 15px;
+    }
+
+    //copyright
+    .copyright {
+        font-size: $copyright-font-size-tablet;
+        margin-top: $xx-large-spacing;
+        font-weight: $semi-bold-font-weight;
+    }
+
+}

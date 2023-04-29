@@ -1,0 +1,14 @@
+@mixin hover-effect {
+    transition: all 0.5s ease-in-out;
+    color: $primary-orange;
+}
+
+@mixin button-hover {
+    transition: all 0.3s ease-in-out;
+    background: $primary-orange;
+    box-shadow: 5px 5px $primary-navy;
+}
+
+@mixin box-hover {
+    box-shadow: 5px 10px $primary-navy;
+}
